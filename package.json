@@ -8,7 +8,12 @@
       "apps/*",
       "packages/*"
     ],
-    "catalog": {}
+    "catalog": {
+      "typescript": "6"
+    }
   },
-  "scripts": {}
+  "scripts": {},
+  "devDependencies": {
+    "typescript": "catalog:"
+  }
 }
