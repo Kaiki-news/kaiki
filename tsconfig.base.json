@@ -1,4 +1,6 @@
 {
+  "extends": "../../tsconfig.base.json",
+  "include": ["nuxt.config.ts"],
   "compilerOptions": {
     "target": "ESNext",
     "lib": ["ESNext"],
@@ -13,5 +15,6 @@
     "noImplicitOverride": true,
     "noFallthroughCasesInSwitch": true,
     "skipLibCheck": true,
+    "types": ["node"],
   },
 }
